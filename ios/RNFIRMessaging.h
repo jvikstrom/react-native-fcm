@@ -1,9 +1,13 @@
 
 #import <UIKit/UIKit.h>
 
-@import FirebaseCore;
+#import <FirebaseCore/FirebaseCore.h>
+#import <FirebaseMessaging/FirebaseMessaging.h>
+#import <FirebaseInstanceID/FirebaseInstanceID.h>
+ 
+/*@import FirebaseCore;
 @import FirebaseMessaging;
-@import FirebaseInstanceID;
+@import FirebaseInstanceID;*/
 #import <React/RCTEventEmitter.h>
 
 @import UserNotifications;
